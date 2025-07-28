@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Bytebounce";
+    src: url(/style/ByteBounce.ttf);
+}
+/* text properties */
+.linear-text-gradient{background: linear-gradient(to top right, #e8f860, #2fcf21);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;}
+
+body{text-align: center;} 
+body{background-color:black;}
+body{font-family: "Bytebounce";}
+body{font-size:xx-large;}
+
+/* individual playlist text */
+#subhead{background: linear-gradient(15deg, #c0366b, rgb(246, 109, 150));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;}
+
+#subhead{font-size:71%;}
+
+
+/* text overlay on walkman */
+.walkman{position: relative;}
+
+.walkman img{
+max-width: 382;
+height:auto;
+}
+
+.text-overlay{position:absolute;
+top:23%;
+left: 54.5%;
+color: #000000;
+font-size:x-large;
+}
+
+.text-overlay{text-orientation:upright;}

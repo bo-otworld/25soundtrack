@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Bytebounce";
-    src: url(/style/ByteBounce.ttf);
+    font-family: "Bankjob";
+    src: url(/style/Bankjob.ttf);
 }
 /* text properties */
 .linear-text-gradient{background: linear-gradient(to top right, #e8f860, #2fcf21);
@@ -10,7 +10,7 @@
 
 body{text-align: center;} 
 body{background-color:black;}
-body{font-family: "Bytebounce";}
+body{font-family: "Bankjob";}
 body{font-size:xx-large;}
 
 /* individual playlist text */
